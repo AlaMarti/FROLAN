@@ -1,0 +1,231 @@
+* {
+        box-sizing: border-box;
+}
+
+
+body { 
+    font-family: 'Roboto';    
+}
+
+.main-header{
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.bottom-bar{
+    display: none;
+    border-radius: 10px;
+    
+}
+
+
+.bottom-bar ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.bottom-bar a {
+
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 5px 0px;
+    font-size: 12px;
+    
+
+}
+
+.hamburguesa{
+
+    margin: auto;
+    display: block;
+    max-width: 50px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 15px 0px;
+    background-color: #03264c;
+    color: #ffff;
+}
+
+.logo{
+
+    margin: 0;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+
+.catalogo{
+    max-width: 600px;
+    padding: 10px;
+    margin: auto;
+    font-size: 60px;
+    
+    
+    
+}
+.ofertas{
+    max-width:600px;
+    padding: 10px;
+    margin: auto;
+    font-size: 60px;
+}
+
+.principal{
+    display: flex;
+    margin-top: 50px;
+        
+}
+
+.principal a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.formulario{
+    padding: 20px 15px;
+    text-align: center;
+    
+}
+
+.formulario div {
+    margin-bottom: 15px;
+}
+
+.formulario label{
+    margin-bottom: 5px;
+    font-style:italic;
+    display: block;
+    font-weight: bold;
+}
+
+.formulario input{
+    width: 25%;
+    padding: 8px 8px;
+}
+
+.boton{
+    padding: 5px 5px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: #03264c;
+    color: white;
+}
+
+footer {
+    margin-top: 100px;
+    
+
+}
+
+
+
+.pie-pagina{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #CCC;
+
+}
+
+.iconos{
+    padding: 15px;    
+}
+
+.iconos i {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.pie-pagina2{
+    background-color: #CCC;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 10px;
+    
+        
+}
+
+.pie-pagina2 a {
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.pie-pagina2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.pie-pagina3{
+    background-color: grey;
+}
+
+
+
+
+
+    
+    
+
+@media (min-width: 768px){
+    .top-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .copy-header{
+        max-width: 350px;   
+        font-size: 22px;
+    }
+
+    .hamburguesa{
+        display: none;
+    }
+
+    .bottom-bar{
+
+        display: block;
+        justify-content: space-between;
+        margin: auto;
+        max-width: 700px;
+        padding: 5px;
+        
+        
+    }
+
+    .bottom-bar ul{
+        display: flex;
+        
+    }
+
+    .bottom-bar li { 
+        margin: 0 5px;
+        
+    }
+
+    .bottom-bar a {
+
+        font-size: 20px;
+        text-align: center;
+        margin: 0 25px;
+        font-weight: bold;
+        justify-content: center;
+
+    }
+
+  
+
+   
+
+}
